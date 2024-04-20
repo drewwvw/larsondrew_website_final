@@ -1,0 +1,180 @@
+body {
+    background-color:rgb(22, 21, 20);
+    margin: 50;
+}
+
+.double {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: small;
+}
+
+.img {
+    background-image: url(..images/backfront-image.jpg);
+    background-position: bottom;
+    background-size:contain;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    min-width: 600px;
+}
+.space {
+    padding-right: 120px;
+    padding-left: 120px;
+}
+.close {
+    flex-basis: 10; 
+    padding-right: 5px;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:center; 
+}
+.col-2 {
+    padding: 0 6px;
+    flex-basis: 50;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+.col-3 {
+    padding: 0 6px;
+    flex-basis: 33.33;  
+}
+.col-5 {
+    padding: 0 6px;
+    flex-basis: 50; 
+    padding-right: 40px;
+    padding-left: 40px; 
+    font-size: xx-small;
+}
+
+.food {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+.grey-section {
+    background-color:#2e2e2e;
+    margin: 50;
+}
+a:hover, a:active {
+    background-color: 2e2e2e;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; 
+  }
+h1 {
+    color: white;
+    
+}
+h2 {
+    color: white;
+    
+}
+h3 {
+    color: white;
+    text-align:left;
+ 
+}
+h4 {
+    color: white;
+    text-align: center;
+}
+h5 {
+    color: white;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+p {
+    color: white;
+    text-align: center;
+}
+.button {
+    text-decoration: none;
+    background-color:#2e2e2e;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button2 {
+    text-decoration: none;
+    background-color: rgb(22, 21, 20);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    display: inline-block;
+}
+.button3 {
+    text-decoration: none;
+    background-color: rgb(22, 21, 20);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    display: inline-block;
+}
+
+.largetext {
+    text-decoration: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.largetext2 {
+    text-decoration: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    color: white;
+    text-align: center;
+    
+}
+.margin-bottom {
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+.loc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 280px;
+    padding-left: 280px;
+     
+}
+.about-us {
+    background-color:#2e2e2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 180px;
+    padding-left: 180px;
+     
+}
